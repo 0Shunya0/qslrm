@@ -1,0 +1,81 @@
+{
+  "project": {
+    "id": 1,
+    "title": "Quantum Error Correction Study",
+    "description": "Investigating surface codes and logical qubit performance",
+    "field_of_study": "Quantum Error Correction",
+    "status": "active",
+    "start_date": "2024-01-15",
+    "end_date": null,
+    "owner": {
+      "id": 1,
+      "name": "Alice Johnson",
+      "email": "alice.johnson@quantumlab.edu",
+      "institution": "MIT"
+    }
+  },
+  "team": [
+    {
+      "researcher_id": 1,
+      "name": "Alice Johnson",
+      "role": "lead",
+      "institution": "MIT"
+    },
+    {
+      "researcher_id": 4,
+      "name": "David Brown",
+      "role": "developer",
+      "institution": "UC Berkeley"
+    },
+    {
+      "researcher_id": 7,
+      "name": "Grace Wilson",
+      "role": "analyst",
+      "institution": "Yale"
+    }
+  ],
+  "statistics": {
+    "total_simulations": 3,
+    "completed": 3,
+    "failed": 0,
+    "running": 0,
+    "avg_fidelity": 0.975,
+    "avg_reproducibility": 0.9633333333333333
+  },
+  "simulations": [
+    {
+      "run_id": 1,
+      "simulation_id": "QEC-001",
+      "framework": "Qiskit",
+      "algorithm": "Surface Code",
+      "qubits": 9,
+      "status": "completed",
+      "execution_date": "2024-01-20T10:30:00",
+      "fidelity": 0.992,
+      "reproducibility": 0.98
+    },
+    {
+      "run_id": 2,
+      "simulation_id": "QEC-002",
+      "framework": "Qiskit",
+      "algorithm": "Surface Code",
+      "qubits": 17,
+      "status": "completed",
+      "execution_date": "2024-02-05T14:15:00",
+      "fidelity": 0.978,
+      "reproducibility": 0.965
+    },
+    {
+      "run_id": 3,
+      "simulation_id": "QEC-003",
+      "framework": "Qiskit",
+      "algorithm": "Surface Code",
+      "qubits": 25,
+      "status": "completed",
+      "execution_date": "2024-03-10T09:00:00",
+      "fidelity": 0.955,
+      "reproducibility": 0.945
+    }
+  ],
+  "generated_at": "CURRENT_TIMESTAMP"
+}

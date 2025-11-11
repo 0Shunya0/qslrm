@@ -1,0 +1,19 @@
+<!-- backend/templates/index.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>QSLRM Dashboard</title>
+</head>
+<body>
+    <h1>QSLRM Dashboard</h1>
+    <div id="analytics"></div>
+    <script>
+        fetch("/api/analytics/dashboard")
+            .then(res => res.json())
+            .then(data => {
+                document.getElementById("analytics").innerText = JSON.stringify(data, null, 2);
+            });
+    </script>
+</body>
+</html>
