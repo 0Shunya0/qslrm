@@ -91,7 +91,7 @@ This structure is expected to evolve as research requirements change.
 
 ## Project Status
 
-🧪 Active research and experimentation  
+Active research and experimentation  
 The project is under active development and may change structure as ideas mature.
 
 ---
